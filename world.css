@@ -1,0 +1,76 @@
+/* Add your own styles */
+
+*{
+    margin: auto;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    font-size: 16px;
+    background-color: #E7F5FA; 
+}
+
+header {
+    display: flex;
+    color: #ffffff;
+    padding: 50px 0;
+    margin-bottom: 30px;
+    background-color: #2b4e72; 
+}
+
+img {
+    height: 150px;
+    margin-right: 20px;
+}
+
+input[type='search'] {
+    font-size: 16px;
+    width: 50%;
+    padding: 15px 7px;
+    border: solid 1px #86a8d0; 
+    border-radius: 5px;
+}
+
+button {
+    font-size: 16px;
+    border: none;
+    padding: 15px 40px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+}
+
+#elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+td, th {
+    border: 1px solid #BCDCF0; 
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #7CC8F9; 
+}
+
+#cities {
+    background-color: #BD5605    ; 
+}
+
+#lookup {
+    background-color: #4cae4c; 
+}
